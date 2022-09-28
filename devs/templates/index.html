@@ -2,4 +2,10 @@
 {% load static %}
 {% block content %}
 <h1>i love coding myselff up</h1>
+{% for projo in projects%}
+<h2><a href="">{{projo.title}}</a></h2>
+
+
+{%endfor%}
+<h2>mozxee</h2>
 {%endblock%}
